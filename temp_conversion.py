@@ -1,5 +1,5 @@
 def convert_100_to_celsius():
-    celsius_100 = ((100-32) * 5/9)
+    celsius_100 = (100-32) * 5/9
     print(celsius_100)
     print(type(celsius_100))
     #The number contains a deciamak, so it is a float.
@@ -16,7 +16,7 @@ convert_100_to_celsius()
 #The decimal indicates that it is a float
 
 def convert_0_to_celsius():
-    celsius_0 = ((0-32)*5/9)
+    celsius_0 = (0-32)*5/9
     print(celsius_0)
 convert_0_to_celsius()
     # Convert a temperature of 0 degrees fahrenheit to celsius
