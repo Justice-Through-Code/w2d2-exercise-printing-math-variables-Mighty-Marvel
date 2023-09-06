@@ -7,7 +7,7 @@ def convert_100_to_celsius():
     # How do you know? Write a comment below your code explaining how you know which it is
     celsius_100 = (100-32) * 5/9
     print(celsius_100)
-    print(type(celsius_100))
+    print("float")
     #The number contains a decimal, so it is a float.
 convert_100_to_celsius()
 #convert_100_to_celsius()
